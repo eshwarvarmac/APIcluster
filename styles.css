@@ -1,0 +1,508 @@
+/* a{
+    display: block;
+} */
+/* #navbarSupportedContent
+{
+    position: absolute;
+    right: 0;
+} */
+.nav-item
+{
+    padding: 0 18px;
+}
+.container-fluid
+{
+    padding: 9% 9% 7%;
+}
+/* #nav_bar
+{
+    padding: 0 0 4.5rem;
+} */
+.navbar-brand
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Ubuntu;
+}
+
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: Montserrat;
+}
+.card
+{
+    padding: 3%;
+}
+.card-height
+{
+    height: 609.5px;
+}
+@media (max-width:724px)
+{
+    .container-fluid
+    {
+        padding-top: 19%;
+    }
+}
+@media (max-width:584px)
+{
+    .card-height
+    {
+        width: -webkit-fill-available;
+    }
+}
+@media (min-width:585px) and (max-width:991.5px)
+{
+    .card-height
+    {
+        width: 500px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    background-color: #5EAAA8;
+    top: 0;
+    width: 100%;
+    padding-bottom: 3px;
+    z-index: 100;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #212529;
+    /* color: #eeeeee; */
+    text-align: center;
+    padding: 1px 18px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+/* .index-body
+{
+    background-color: #FFF2F2;
+} */
+
+/* Weather Styling */
+/* #weatherIcon
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.city-error
+{
+    display: none;
+}
+.units-error
+{
+    display: none;
+}
+#weather-container
+{
+    padding-top: 15%;
+    /* text-align: center; */
+}
+#weather-info
+{
+    background-color: #000;
+    opacity: .77;
+    color: white;
+    padding: 1em;
+    border-radius: 32px;
+    margin: 1em;
+}
+
+@media (min-width:748px)
+{
+    #weather-info
+    {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+    }
+}
+.weather-ele
+{
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    margin: 1%;
+}
+@media (max-width:625px)
+{
+    /* .weather-ele
+    {
+        margin: 5%;
+    } */
+    #header
+    {
+        font-size: 2em;
+    }
+}
+"small": "https://images.unsplash.com/photo-1513051265668-0ebab31671ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NTQzNzZ8MHwxfGNvbGxlY3Rpb258MXw4OTMzOTV8fHx8fDJ8fDE3MjY0OTUxMzF8&ixlib=rb-4.0.3&q=80&w=400",
+
+.weather-body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    background-image: url(https://images.unsplash.com/photo-1513051265668-0ebab31671ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NTQzNzZ8MHwxfGNvbGxlY3Rpb258MXw4OTMzOTV8fHx8fDJ8fDE3MjY0OTUxMzF8&ixlib=rb-4.0.3&q=80&w=400
+);
+}
+.weather-ele-but
+{
+    width: 200px;
+}
+input.large { display: inline-block; }
+input.small { display: none; }
+@media (max-width:400px)
+{
+    .weather-ele-but
+    {
+        width: 130px;
+    }
+    input::placeholder {
+        font: 1.25rem/3 sans-serif;
+    }
+    input.large { display: none; }
+    input.small { display: inline-block; }
+}
+.weather-ele-click
+{
+    transition-duration: 0.4s;
+}
+.weather-ele-click:hover
+{
+    background-color: #FF6969;
+    color: white;
+}
+
+/* FAQ */
+.height-index-fax
+{
+    height: 100px;
+}
+
+
+/* movies */
+.movie-ele
+{
+    border-style: solid;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    /* color: white; */
+    font-family: inherit;
+    font-size: 105%;
+    margin: 1%;
+}
+input.large { display: inline-block; }
+input.small { display: none; }
+@media (max-width:472px)
+{
+    #movies-container
+    {
+        padding-top: 27%;
+    }
+    .poster
+    {
+        width: -webkit-fill-available;
+    }
+    .movie-ele-but
+    {
+        width: -webkit-fill-available;
+    }
+    input.large { display: none; }
+    input.small { display: inline-block; }
+}
+/* @media (max-width:712px)
+{
+    #movies-container
+    {
+        padding-top: 70px;
+    }
+} */
+.movie-ele-but
+{
+    width: 200px;
+}
+.movie-ele-click
+{
+    transition-duration: 0.4s;
+}
+.movie-ele-click:hover
+{
+    background-color: #FF6969;
+    color: white;
+}
+.nobreak
+{
+    display: none;
+}
+.error
+{
+    display: none;
+}
+.but
+{
+    /* border: 1px solid rgba(0,0,0,.425); */
+    border-radius: 0.25rem;
+    padding-top: 10px;
+}
+#movies-container
+{
+    border: none;
+}
+
+.nobreak h4
+{
+    display: inline
+}
+.search-results h5
+{
+    display: inline;
+}
+
+
+
+
+/* Cricket */
+.player-ele
+{
+    border-style: solid;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    /* color: white; */
+    font-family: inherit;
+    font-size: 105%;
+    margin: 1%;
+}
+.player-ele-but
+{
+    width: 200px;
+}
+.player-ele-click
+{
+    transition-duration: 0.4s;
+}
+.player-ele-click:hover
+{
+    background-color: #FF6969;
+    color: white;
+}
+.nobreak
+{
+    display: none;
+}
+.error
+{
+    display: none;
+}
+.but
+{
+    /* border: 1px solid rgba(0,0,0,.425); */
+    border-radius: 0.25rem;
+    padding-top: 10px;
+}
+#players-container
+{
+    border: none;
+}
+@media (max-width:712px)
+{
+    #players-container
+    {
+        padding-top: 70px;
+    }
+}
+.nobreak h4
+{
+    display: inline
+}
+.search-results h5
+{
+    display: inline;
+}
+
+
+
+/* Countries */
+.countries-info h4
+{
+    display: inline;
+}
+.country-info
+{
+    background-color: #000;
+    opacity: .77;
+    color: white;
+    padding: 1em;
+    border-radius: 32px;
+    margin: 1em;
+}
+.country-body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    background-image: url(https://source.unsplash.com/1600x900/?nature);
+}
+.country-ele
+{
+    border-style: solid;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    margin: 1%;
+}
+.country-ele-but
+{
+    width: 200px;
+}
+.country-ele-click
+{
+    transition-duration: 0.4s;
+}
+.country-ele-click:hover
+{
+    background-color: #FF6969;
+    color: white;
+}
+.country-container
+{
+    padding-top: 220px;
+}
+#countryName
+{
+    width: 146.8px;
+}
+@media (max-width:472px)
+{
+    .flag
+    {
+        width: -webkit-fill-available;
+    }
+}
+input.large { display: inline-block; }
+input.small { display: none; }
+@media (max-width:400px)
+{
+    #countryName
+    {
+        width: 95px;
+    }
+    input.large { display: none; }
+    input.small { display: inline-block; }
+}
+
+
+/* Words */
+.word-ele
+{
+    border-style: solid;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    margin: 1%;
+}
+.word-ele-but
+{
+    width: 200px;
+}
+.word-ele-click
+{
+    transition-duration: 0.4s;
+}
+.word-ele-click:hover
+{
+    background-color: #FF6969;
+    color: white;
+}
+.words-body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    background-image: url(https://source.unsplash.com/1600x900/?sky);
+}
+.word-info
+{
+    background-color: #000;
+    opacity: .77;
+    color: white;
+    padding: 1em;
+    border-radius: 32px;
+    margin: 1em;
+}
+
+
+
+
+
+/* Add this to your styles.css file or in a <style> tag in your HTML */
+.suggestion-list {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.suggestion-item:hover {
+    background-color: #f2f2f2;
+}
+
+.no-suggestions {
+    padding: 10px;
+    text-align: center;
+    color: #777;
+}
+
+/* Add this to adjust the position of the suggestion box */
+.search {
+    position: relative;
+}
+
+/* Adjust the z-index to make the suggestions appear above other elements if needed */
+.suggestion-list {
+    z-index: 1;
+}

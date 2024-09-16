@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=1024"> -->
+    <title>Movies</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="public/images/favicon-32x32.png">
+</head>
+<body>
+    <section id="nav-bar">
+        <nav id="nav_bar" class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="">APIcluster</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="movies-faq.html">About</a>
+                    </li>
+                </ul>
+             </div>
+        </nav>
+    </section>
+    <div class="container-fluid" id="movies-container">
+        <div class="card">
+            <div class="search">
+                <input type="text" id="movieName" class="movie-ele movie-ele-but large" spellcheck="false" placeholder="Movie Name">
+                <input type="text" id="movieName" class="movie-ele movie-ele-but small" spellcheck="false" placeholder="Movie">
+                <!-- <input type="text" id="year" placeholder="Enter the year"> -->
+                <button class="movie-ele movie-ele-click">Click</button>
+            </div>
+            <div class="error">
+                <p class="errorsub">Please enter the original title of the movie :)</p>
+            </div>
+            <div class="nobreak">
+                <h1 class="movie">RRR</h1>
+                <p class="runtime">Runtime : </p>
+                <img class="poster" src=" " alt="">
+                
+                <p class="released">Released on : </p>
+                <p class="genre">Genre :  </p>
+                <p class="Actors">Actors : </p>
+                <p class="Director">Director :  </p>
+                <p class="Writer">Writer : </p>
+                <p class="Country">Country : </p>
+                <p class="Awards">Awards : </p>
+                <p class="imdbRating">IMDB Rating : </p>
+                <p class="BoxOffice">Box Office Collection : </p>
+                <p class="Plot">Plot : </p>
+                
+
+            </div>
+            <div class="noresults">
+                <h3>Sorry no results found</h3>
+            </div>
+            <div class="search-results">
+                <h6 class="results-heading">Here are the results of : </h6>
+                <h6>Click on the movie poster to get more information</h6>
+                <div class="row">
+
+                        <div type="button" class="col-lg-4 col-md-6 col-sm-12 div0 but">
+                            <img class="img0" src="" alt="">
+                            <h4 class="name0 name"></h4>
+                            <p class="year0 year"></p>
+                        </div>
+
+                        <div type="button" class="col-lg-4 col-md-6 col-sm-12 div1 but">
+                            <img class="img1" src="" alt="">
+                            <h4 class="name1 name"></h4>
+                            <p class="year1 year"></p>
+                        </div>
+
+                        <div type="button" class="col-lg-4 col-md-6 col-sm-12 div2 but">
+                            <img class="img2" src="" alt="">
+                            <h4 class="name2 name"></h4>
+                            <p class="year2 year"></p>
+                        </div>
+
+                        <div type="button" class="col-lg-4 col-md-6 col-sm-12 div3 but">
+                            <img class="img3" src="" alt="">
+                            <h4 class="name3 name"></h4>
+                            <p class="year3 year"></p>
+                        </div>
+
+                        <div type="button" class="col-lg-4 col-md-6 col-sm-12 div4 but">
+                            <img class="img4" src="" alt="">
+                            <h4 class="name4 name"></h4>
+                            <p class="year4 year"></p>
+                        </div>
+
+                        <div type="button" class="col-lg-4 col-md-6 col-sm-12 div5 but">
+                            <img class="img5" src="" alt="">
+                            <h4 class="name5 name"></h4>
+                            <p class="year5 year"></p>
+                        </div>
+                </div>
+                <div class="row">
+
+                        <div type="button" class="col-lg-4 col-md-6 col-sm-12 div6 but">
+                            <img class="img6" src="" alt="">
+                            <h4 class="name6 name"></h4>
+                            <p class="year6 year"></p>
+                        </div>
+
+                        <div type="button" class="col-lg-4 col-md-6 col-sm-12 div7 but">
+                            <img class="img7" src="" alt="">
+                            <h4 class="name7 name"></h4>
+                            <p class="year7 year"></p>
+                        </div>
+
+                        <div type="button" class="col-lg-4 col-md-6 col-sm-12 div8 but">
+                            <img class="img8" src="" alt="">
+                            <h4 class="name8 name"></h4>
+                            <p class="year8 year"></p>
+                        </div>
+
+                        <div type="button" class="col-lg-4 col-md-6 col-sm-12 div9 but">
+                            <img class="img9" src="" alt="">
+                            <h4 class="name9 name"></h4>
+                            <p class="year9 year"></p>
+                        </div>
+
+                        <div type="button" class="col-lg-4 col-md-6 col-sm-12 div10 but">
+                            <img class="img10" src="" alt="">
+                            <h4 class="name10 name"></h4>
+                            <p class="year10 year"></p>
+                        </div>
+
+                        <div type="button" class="col-lg-4 col-md-6 col-sm-12 div11 but">
+                            <img class="img11" src="" alt="">
+                            <h4 class="name11 name"></h4>
+                            <p class="year11 year"></p>
+                        </div>
+                </div>
+                <div class="row">
+
+                    <div type="button" class="col-lg-4 col-md-6 col-sm-12 div12 but">
+                        <img class="img12" src="" alt="">
+                        <h4 class="name12 name"></h4>
+                        <p class="year12 year"></p>
+                    </div>
+
+                    <div type="button" class="col-lg-4 col-md-6 col-sm-12 div13 but">
+                        <img class="img13" src="" alt="">
+                        <h4 class="name13 name"></h4>
+                        <p class="year13 year"></p>
+                    </div>
+
+                    <div type="button" class="col-lg-4 col-md-6 col-sm-12 div14 but">
+                        <img class="img14" src="" alt="">
+                        <h4 class="name14 name"></h4>
+                        <p class="year14 year"></p>
+                    </div>
+
+                    <div type="button" class="col-lg-4 col-md-6 col-sm-12 div15 but">
+                        <img class="img15" src="" alt="">
+                        <h4 class="name15 name"></h4>
+                        <p class="year15 year"></p>
+                    </div>
+
+                    <div type="button" class="col-lg-4 col-md-6 col-sm-12 div16 but">
+                        <img class="img16" src="" alt="">
+                        <h4 class="name16 name"></h4>
+                        <p class="year16 year"></p>
+                    </div>
+
+                    <div type="button" class="col-lg-4 col-md-6 col-sm-12 div17 but">
+                        <img class="img17" src="" alt="">
+                        <h4 class="name17 name"></h4>
+                        <p class="year17 year"></p>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div type="button" class="col-lg-4 col-md-6 col-sm-12 div12 but">
+                        <img class="img18" src="" alt="">
+                        <h4 class="name18 name"></h4>
+                        <p class="year18 year"></p>
+                    </div>
+
+                    <div type="button" class="col-lg-4 col-md-6 col-sm-12 div13 but">
+                        <img class="img19" src="" alt="">
+                        <h4 class="name19 name"></h4>
+                        <p class="year19 year"></p>
+                    </div>
+
+                    <div type="button" class="col-lg-4 col-md-6 col-sm-12 div14 but">
+                        <img class="img20" src="" alt="">
+                        <h4 class="name20 name"></h4>
+                        <p class="year20 year"></p>
+                    </div>
+
+                    <div type="button" class="col-lg-4 col-md-6 col-sm-12 div15 but">
+                        <img class="img21" src="" alt="">
+                        <h4 class="name21 name"></h4>
+                        <p class="year21 year"></p>
+                    </div>
+
+                    <div type="button" class="col-lg-4 col-md-6 col-sm-12 div16 but">
+                        <img class="img22" src="" alt="">
+                        <h4 class="name22 name"></h4>
+                        <p class="year22 year"></p>
+                    </div>
+
+                    <div type="button" class="col-lg-4 col-md-6 col-sm-12 div17 but">
+                        <img class="img23" src="" alt="">
+                        <h4 class="name23 name"></h4>
+                        <p class="year23 year"></p>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="movies.js"></script>
+</body>
+</html>
